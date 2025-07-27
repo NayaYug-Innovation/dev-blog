@@ -28,11 +28,13 @@ const Homepage = () => {
       {/* card section */}
       {/*  */}
       {/*  */}
+
       <div className='cards grid lg:grid-cols-3 md:grid-cols-2 gap-8 mt-16 mx-12 px-8'>
-      {Array.from({ length: 9 }).map((_, index) => (
-        <Card key={index} />
-      ))}
+        {Array.from({ length: 9 }).map((_, index) => (
+          <Card key={index} id={ index + 1 } />
+        ))}
       </div>
+
       <div className='loadmore_div flex items-center justify-center'>
         <button className=" border-2 border-gray-200 rounded-md mt-8 px-4 p-2 text-gray-500">Load More</button>
       </div>
