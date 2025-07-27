@@ -14,8 +14,8 @@ const Header = () => {
       </div>
       <div className="header_middle hidden lg:flex lg:flex-1 lg:justify-between lg:px-16 lg:mx-8 lg:pt-2">
         <div className="home"><Link to="/">Home</Link></div>
-        <div className="blog"><Link to="blogs">Blog</Link></div>
-        <div className="singlePost"><Link to='/blog/:id'>Single Post</Link></div>
+        <div className="blog"><Link to="/blogs">Blog</Link></div>
+        
         <div className="pages"><Link to='/Author'> Author</Link></div>
         <div className="contact"> <Link to=''> Contact </Link></div>
         <div className="login"> <Link to='/login'> Login</Link></div>
