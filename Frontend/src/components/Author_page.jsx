@@ -1,6 +1,5 @@
 import Header from './Header';
 import Footer from './Footer';
-import Card from './Card';
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -30,11 +29,6 @@ const Author_page = () => {
       </div>
       <div className="latest_post mx-4">
         <div className='text-xl font-bold pt-8 block'>Latest Post</div>
-        <div className='cards grid lg:grid-cols-3 md:grid-cols-2 gap-8 mt-6 '>
-      {Array.from({ length: 5 }).map((_, index) => (
-        <Card key={index} />
-      ))}
-      </div>
       </div>
     </div>
     <Footer/>
